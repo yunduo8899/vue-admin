@@ -1,0 +1,44 @@
+{
+  "id": "1838559",
+  "name": "vue-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "560231",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1099834",
+      "name": "菜单",
+      "font_class": "toggle",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "2380623",
+      "name": "电脑",
+      "font_class": "console",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "14164099",
+      "name": "笔记本",
+      "font_class": "info",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "9648378",
+      "name": "User",
+      "font_class": "user",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    }
+  ]
+}

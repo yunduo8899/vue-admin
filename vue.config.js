@@ -21,6 +21,7 @@ module.exports = {
       // 开发生产共同配置
       resolve: {
         alias: {
+          // 'vue$': 'vue/dist/vue.js',
           '@': path.resolve(__dirname, './src'),
           '@c': path.resolve(__dirname, './src/components'),
           '@v': path.resolve(__dirname, './src/views'),
@@ -61,6 +62,16 @@ module.exports = {
         //         ["^" + process.env.VUE_APP_API_URL]: ""
         //     }
         // }
+        proxy: {
+          '/api': {
+              // target: `http://960882.com/index.php/`,
+              target: `http://dev.cc/index.php/`,
+              changeOrigin: true,
+              pathRewrite: {//看后台是否有，决定是否重写
+                  "^\api": ""
+              }
+          }
+        }
   },
   // 第三方插件配置
   pluginOptions: {}

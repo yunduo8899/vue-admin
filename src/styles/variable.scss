@@ -1,0 +1,18 @@
+$menuWidth:18vw;     //菜单宽度
+$closeMenuWidth: 4.6vw;//隐藏文字时菜单宽度
+$navHeight:10vh;     //导航高度
+
+$selectColor:#f56c6c; //主选中后颜色 rgba(245,108,108,0.2)
+
+/**
+@mixin 可重复利用的模块
+该模块处理css兼容
+@param $type传入的类型
+@param $value传入的值
+*/
+@mixin webkit($type , $value){
+    -webkit-#{$type} : #{$value};  //-webkit代表safari、chrome私有属性
+    -moz-#{$type} : #{$value};
+    -ms-#{$type} : #{$value};
+    #{$type} : #{$value};
+}
